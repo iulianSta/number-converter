@@ -25,3 +25,10 @@ function convert() {
   }
   result.innerHTML = `${currentValue}`;
 }
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  result.innerHTML = convert();
+});
+form.addEventListener("reset", () => {
+  result.innerHTML = `Your input has been cleared out`;
+});
