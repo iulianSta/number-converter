@@ -32,3 +32,6 @@ form.addEventListener("submit", (e) => {
 form.addEventListener("reset", () => {
   result.innerHTML = `Your input has been cleared out`;
 });
+leftCol.addEventListener("change", convert);
+rightCol.addEventListener("change", convert);
+userInput.addEventListener("keyup", userValue);
