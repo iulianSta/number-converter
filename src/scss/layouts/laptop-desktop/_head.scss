@@ -1,0 +1,90 @@
+// H1
+h1 {
+  margin-bottom: 3rem;
+  font-family: $itim;
+  color: $white;
+}
+// Form
+
+// Head
+.head {
+  margin-bottom: 1.5rem;
+  @include flex;
+  flex-flow: row wrap;
+  font-family: $itim;
+  color: $white;
+}
+// Left selector
+.left {
+  @include flex;
+  align-items: flex-start;
+  flex-direction: column;
+  label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  #col1 {
+    width: 8rem;
+    height: 1.7rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+}
+// Right selector
+.right {
+  @include flex;
+  align-items: flex-start;
+  flex-direction: column;
+  label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  #col2 {
+    width: 8rem;
+    height: 1.7rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+}
+// Input area
+.inputArea {
+  width: 100vw;
+  padding: 3rem;
+  @include flex;
+  flex-flow: row wrap;
+}
+#userInput {
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  height: 1.7rem;
+  margin: 3rem;
+  border: none;
+  border-radius: 5px;
+}
+input[type="submit"],
+button[type="reset"] {
+  width: 10rem;
+  height: 1.7rem;
+  margin-bottom: 1rem;
+  font-family: $itim;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: $green;
+    color: $black;
+  }
+}
+// result
+.result {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: $white;
+}

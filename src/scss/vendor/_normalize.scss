@@ -1,1 +1,16 @@
 // Normalize
+// All elements
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// Body
+body {
+  padding: 2rem 0 0 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column;
+  background-color: rgba($color: #292828, $alpha: 1);
+}

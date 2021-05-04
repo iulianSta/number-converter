@@ -1,32 +1,37 @@
 // Declare selector variables
 const result = document.querySelector(".result");
 const userInput = document.querySelector("#userInput");
-const leftCol = document.querySelector(".left");
-const rightCol = document.querySelector(".right");
+const leftCol = document.querySelector("#col1");
+const rightCol = document.querySelector("#col2");
 const form = document.querySelector("form");
 let userNumber = 0;
+// userValue function
 function userValue(e) {
   userNumber = e.target.value;
 }
+// convert function
 function convert() {
   let currentValue;
   switch ((leftCol.value, rightCol.value)) {
-    case "integer":
-      currentValue = parseInt(userNumber);
+    case "binary":
+      currentValue = parseInt(userNumber).toString(2);
       break;
     case "decimal":
-      currentValue = userNumber.toFixed(2);
+      currentValue = parseInt(userNumber).toString(10);
       break;
     case "hexadecimal":
-      currentValue = userNumber.toString(16);
+      currentValue = parseInt(userNumber).toString(16);
       break;
     default:
-      if (userInput == "") userInput.placeholder = `Please type a number`;
+      currentValue = 0;
   }
-  result.innerHTML = `${currentValue}`;
+  //   result.innerHTML = `${currentValue}`;
+  return currentValue;
 }
+// addEventListener
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+  //console.log(123);
   const value = convert();
   result.innerHTML = value;
 });
