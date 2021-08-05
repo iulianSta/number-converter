@@ -1,19 +1,57 @@
-# Number Converter
+# Number converter App
+
+![Number converter app](./src/img/converter.png)
 
 ## Table of Contents
 
-1. About The Project
+### About The Project
+
+**Digital clock app project**
+
+Built a number converter application from decimal to binary and from binary to hexadecimal.
+The app is full responsive.
 
 - Built With
+  - HTML;
+  - SCSS;
+  - JavaScript;
+  - gh-pages;
+  - npm live-server.
 
-2. Getting Started
+### Getting Started
 
 - Prerequisites
+  - vsCode;
+  - node modules;
+  - package JSON.
 - Installation
+  - development tools:
+    - node modules;
+    - package.json;
+    - package-lock.json;
+    - gh-pages;
+    - sass;
+    - live-server.
 
-3. Usage
-4. Roadmap
-5. Contributing
-6. License
-7. Contact
-8. Acknowledgements
+### Usage
+
+- HTML;
+- SCSS;
+- JavaScript;
+- Google fonts.
+
+### Contributing
+
+## Iulian Stan
+
+### License
+
+- Copyright protected
+
+### Contact
+
+[**Iulian Stan**](https://github.com/iulianSta)
+
+### Acknowledgement
+
+### I want to thank to the [**DCI**](https://www.digitalcareerinstitute.org) team and teachers!
