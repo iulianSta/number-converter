@@ -20,16 +20,10 @@
     "url": "git+https://github.com/iulianSta/number-converter.git"
   },
   "keywords": [],
-  "author": "Iulian Stan",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/iulianSta/number-converter/issues"
   },
-  "homepage": "https://github.com/iulianSta/number-converter#readme",
-  "devDependencies": {
-    "gh-pages": "^3.1.0",
-    "live-server": "^1.2.1",
-    "npm-run-all": "^4.1.5",
-    "sass": "^1.32.12"
-  }
+  "homepage": "https://github.com/iulianSta/number-converter#readme"
 }
