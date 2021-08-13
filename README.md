@@ -6,9 +6,8 @@
 
 ### About The Project
 
-**Digital clock app project**
-
-Built a number converter application from decimal to binary and from binary to hexadecimal.
+Built a number converter application from decimal to binary and hexadecimal.
+This application was made to improve and practice on HTML, SCSS and npm server.
 The app is full responsive.
 
 - Built With
